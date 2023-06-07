@@ -15,6 +15,7 @@
   color: #fff !important;
 }
 
+/* Introsection */
 .intro-left-side {
   padding-top: 130px;
 }
@@ -60,4 +61,16 @@
 .intro-right-side img:hover {
   transition: 0.3s ease;
   transform: scale(1.2);
+}
+
+/* Carousel-section */
+.cardsSection {
+  padding-top: 70px;
+}
+.custom-card {
+  min-width: 200px;
+}
+.card-text {
+  color: #77838f;
+  line-height: 27px;
 }

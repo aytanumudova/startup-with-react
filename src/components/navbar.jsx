@@ -5,7 +5,7 @@ import React from "react";
 import Logo from "../assets/svgs/logo.svg";
 const navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg container">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src={Logo} alt="logo" />

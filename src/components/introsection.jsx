@@ -1,10 +1,10 @@
 import React from "react";
-import playBtn from "../assets/svgs/play-btn.svg";
+import playBtn from "../assets/svgs/introsection/play-btn.svg";
 import MovingComponent from "react-moving-text";
 import Typed from "react-typed";
 import AOS from "aos";
 import { useEffect } from "react";
-import playBtn2 from "../assets/svgs/ply-btn2.svg";
+import playBtn2 from "../assets/svgs/introsection/ply-btn2.svg";
 
 const Introsection = () => {
   useEffect(() => {
@@ -12,7 +12,7 @@ const Introsection = () => {
   }, []);
 
   return (
-    <div className="introsection px-4">
+    <div className="introsection px-4 container">
       <div className="row">
         <div className="col-12 col-md-6 col-lg-5 intro-left-side">
           <Typed
@@ -39,7 +39,7 @@ const Introsection = () => {
           <div className="intro-btns">
             <button className="btn btn-blue me-4">About Us</button>
             <a href="#" className="me-2 text-decoration-none">
-              <img src={playBtn} alt="Play-btn" className=" rounded-circle" />
+              <img src={playBtn} alt="Play-btn" className="rounded-circle" />
             </a>
             <a href="#" className="text-decoration-none text-dark">
               Watch Video
