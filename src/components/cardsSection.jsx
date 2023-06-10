@@ -7,9 +7,12 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
 import { Autoplay, Navigation } from "swiper";
+
+// Datas
+import dataBase from "../data.json";
 const cardsSection = () => {
   return (
-    <div className="cardsSection row container m-auto">
+    <div className="cardsSection row container m-auto ">
       <Swiper
         autoplay={{
           delay: 2500,
@@ -42,27 +45,16 @@ const cardsSection = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <Card />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Card />
-        </SwiperSlide>
+        {dataBase.map((data) => (
+          // PROPS
+          <SwiperSlide>
+            <Card
+              dataTitle={data.title}
+              dataText={data.body}
+              dataImg={data.img}
+            />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );
