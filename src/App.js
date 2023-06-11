@@ -6,12 +6,15 @@ import "../node_modules/bootstrap/dist/js/bootstrap";
 import Navbar from "./components/navbar";
 import Introsection from "./components/introsection";
 import CardsSection from "./components/cardsSection";
+import Reservations from "./components/reservations";
 function App() {
   return (
     <>
       <Navbar />
       <Introsection />
       <CardsSection />
+      <Reservations />
+  
     </>
   );
 }

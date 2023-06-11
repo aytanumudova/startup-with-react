@@ -1,5 +1,4 @@
 import React from "react";
-import cardImg from "../assets/svgs/carousel-section/card-img.svg";
 
 const card = ({ dataTitle, dataText, dataImg }) => {
   return (
