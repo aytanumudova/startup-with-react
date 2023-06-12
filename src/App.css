@@ -65,7 +65,7 @@
 
 /* Carousel-section */
 .cardsSection {
-  padding-top: 70px;
+  padding-top: 100px;
   padding-bottom: 70px;
 }
 .custom-card {
@@ -82,16 +82,11 @@
   padding-bottom: 100px !important;
 }
 
-/* Reservations Section */
-.left-side {
-  width: 500px;
-  height: 360px;
+/* reservation Section */
+.reservation-section .left-side img {
+  width: 80%;
 }
-.left-side img {
-  width: 100%;
-  height: 100%;
-}
-.right-side span {
+.reservation-section .right-side span {
   font-size: 14px;
   letter-spacing: 0.79px;
   padding: 10px 25px;
@@ -100,10 +95,10 @@
   background-color: #f0d9d8;
   color: #ec615b;
 }
-.right-side p {
+.reservation-section .right-side p {
   color: #77838f;
 }
-.right-side .button {
+.reservation-section .right-side .button {
   height: 41px;
   width: 47px;
   background-color: #eaefff;
@@ -113,4 +108,32 @@
 .active {
   background: linear-gradient(135deg, #192b74 0.42%, #2946a1 100%);
   color: #fff;
+}
+
+/* Fast-reports Section */
+.fast-reports-section {
+  padding: 100px 0;
+}
+.fast-reports-section .left-side span {
+  font-size: 14px;
+  letter-spacing: 0.79px;
+  padding: 10px 25px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #f0d9d8;
+  color: #ec615b;
+}
+.fast-reports-section .left-side p {
+  color: #77838f;
+}
+.fast-reports-section .left-side .button {
+  height: 41px;
+  width: 47px;
+  background-color: #eaefff;
+  border-radius: 4px 0 0 4px;
+  border: none;
+}
+
+.fast-reports-section .right-side img {
+  width: 80%;
 }
