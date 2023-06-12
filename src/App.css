@@ -46,6 +46,8 @@
 }
 .intro-right-side {
   background: linear-gradient(135deg, #192b74 0.42%, #2946a1 100%);
+  opacity: 0.7 !important;
+  mix-blend-mode: normal;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,4 +138,18 @@
 
 .fast-reports-section .right-side img {
   width: 80%;
+}
+
+/* Count-up Section */
+.countup {
+  background: linear-gradient(135deg, #192b74 0.42%, #2946a1 100%);
+  color: #fff;
+  padding: 60px 0;
+  opacity: 0.7;
+  mix-blend-mode: normal;
+}
+.countup p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
 }

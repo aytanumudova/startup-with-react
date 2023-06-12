@@ -8,6 +8,7 @@ import Introsection from "./components/introsection";
 import CardsSection from "./components/cardsSection";
 import Reservations from "./components/reservations";
 import FastReports from "./components/fastReports";
+import CountSection from "./components/countSection";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
       <CardsSection />
       <Reservations />
       <FastReports />
+      <CountSection />
     </>
   );
 }
