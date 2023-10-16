@@ -10,6 +10,7 @@ import Reservations from "./components/reservations";
 import FastReports from "./components/fastReports";
 import CountSection from "./components/countSection";
 import PricesSection from "./components/pricesSection";
+import DownloadSection from "./components/downloadSection";
 function App() {
   return (
     <>
@@ -19,7 +20,8 @@ function App() {
       <Reservations />
       <FastReports />
       <CountSection />
-      <PricesSection/>
+      <PricesSection />
+      <DownloadSection />
     </>
   );
 }
