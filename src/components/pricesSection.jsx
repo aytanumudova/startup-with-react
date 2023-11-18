@@ -2,13 +2,10 @@ import React from "react";
 
 const pricesSection = () => {
   return (
-    <div className="prices-section container m-auto text-center d-flex flex-column justify-content-center align-items-center">
+    <div className="prices-section container m-auto text-center d-flex flex-column justify-content-center align-items-center my-5 py-0 py-md-5">
       <span>Pricing</span>
       <h1 className="mt-4 mb-3">Our Packages</h1>
-      <p>
-        Fusce placerat pretium mauris, vel sollicitudin elit lacinia vitae.
-        Quisque sit amet nisi erat.
-      </p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, iusto!</p>
       <div className="row mt-5 d-flex justify-content-center align-items-center gap-4">
         <div className="col-12 col-md-3 pricing-card">
           <h6 class="card-heading">SMALL PACK</h6>

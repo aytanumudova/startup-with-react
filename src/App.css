@@ -155,9 +155,6 @@
 }
 
 /* Prices-section */
-.prices-section {
-  padding: 100px 0;
-}
 
 .prices-section span {
   font-size: 14px;
@@ -170,7 +167,6 @@
 }
 .prices-section p {
   color: #77838f;
-  width: 457px;
 }
 .pricing-card {
   display: flex;
@@ -224,4 +220,13 @@
 }
 .bg-light-red {
   background-color: #f5ccca;
+}
+
+/* Download-section */
+
+.download-section {
+  padding:50px 0;
+}
+.download-section .button{
+  background-color: var(--bg-blue) ;
 }

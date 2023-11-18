@@ -1,6 +1,7 @@
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
 // Components
 import Navbar from "./components/navbar";
