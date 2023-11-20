@@ -9,7 +9,7 @@ const DownloadSection = () => {
         Fusce placerat pretium mauris, vel sollicitudin elit lacinia vitae.
         Quisque sit amet nisi erat.
       </p>
-      <div className="row d-flex flex-column flex-sm-row justify-content-center align-items-center">
+      <div className="row d-flex flex-column gap-2 gap-sm-3 flex-sm-row justify-content-center align-items-center">
         <div className="col-6 col-sm-4 col-md-3 p-2 border border-rounded rounded-5 button">
           <a
             href="#"

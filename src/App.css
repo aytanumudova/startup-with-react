@@ -223,10 +223,14 @@
 }
 
 /* Download-section */
-
 .download-section {
   padding:50px 0;
 }
 .download-section .button{
   background-color: var(--bg-blue) ;
+}
+
+/* Footer */
+.footer {
+  padding-top: 50px;
 }

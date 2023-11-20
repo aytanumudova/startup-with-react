@@ -12,6 +12,7 @@ import FastReports from "./components/fastReports";
 import CountSection from "./components/countSection";
 import PricesSection from "./components/pricesSection";
 import DownloadSection from "./components/downloadSection";
+import Footer from "./components/footer";
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
       <CountSection />
       <PricesSection />
       <DownloadSection />
+      <Footer />
     </>
   );
 }
