@@ -11,9 +11,9 @@ const FastReports = () => {
     }
   };
   return (
-    <div className="row m-auto container fast-reports-section">
+    <div className="row m-auto container fast-reports-section py-5 my-5">
       <div className="col-12 col-lg-6 left-side">
-        <span>What we do?</span>
+        <span className="py-2 px-3 border-rounded rounded-4">What we do?</span>
         <h3 className="mt-4 mb-3">Fast Reports</h3>
         <p>
           Fusce placerat pretium mauris, vel sollicitudin elit lacinia vitae.
@@ -21,7 +21,7 @@ const FastReports = () => {
         </p>
         <div className="list mt-5">
           <div className="list-item d-flex d-inline align-items-baseline gap-3 mb-2">
-            <div className="button d-flex justify-content-center align-items-center">
+            <div className="button p-3 d-flex justify-content-center align-items-center">
               <svg
                 width="6"
                 height="10"
@@ -38,7 +38,7 @@ const FastReports = () => {
             <p>Sed eleifend est ac mi imperdiet pellentesque.</p>
           </div>
           <div className="list-item d-flex d-inline align-items-baseline gap-3 mb-2">
-            <div className="button d-flex justify-content-center align-items-center">
+            <div className="button p-3 d-flex justify-content-center align-items-center">
               <svg
                 width="6"
                 height="10"
@@ -55,7 +55,7 @@ const FastReports = () => {
             <p>Sed eleifend est ac mi imperdiet pellentesque.</p>
           </div>
           <div className="list-item d-flex d-inline align-items-baseline gap-3">
-            <div className="button d-flex justify-content-center align-items-center">
+            <div className="button p-3 d-flex justify-content-center align-items-center">
               <svg
                 width="6"
                 height="10"

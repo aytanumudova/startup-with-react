@@ -3,7 +3,7 @@ import appleIcon from "../assets/svgs/download-section/apple.svg";
 import gmailIcon from "../assets/svgs/download-section/gmailİcon.svg";
 const DownloadSection = () => {
   return (
-    <div className="download-section container text-center">
+    <div className="download-section container text-center py-5 mb-3">
       <h2>Download App</h2>
       <p className="text-secondary my-4">
         Fusce placerat pretium mauris, vel sollicitudin elit lacinia vitae.

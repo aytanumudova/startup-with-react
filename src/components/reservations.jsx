@@ -2,31 +2,13 @@ import React from "react";
 import { useRef } from "react";
 import reservationImg from "../assets/svgs/reservations-section/booking.svg";
 const Reservations = () => {
-  const buttonRef = useRef();
-
-  const addActiveClass = (e) => {
-    const clickedAreas = e.target;
-    if (clickedAreas.classList.contains("button")) {
-      clickedAreas.classList.toggle("active");
-    }
-    // for (let i = 0; i < clickedAreas.length; i++) {
-    //   clickedAreas[i].addEventListener("click",)
-    //   if (clickedAreas.length > 0) {
-    //     clickedAreas[0].className = clickedAreas[0].className.replace(
-    //       "active",
-    //       " "
-    //     );
-    //   }
-    // }
-  };
-
   return (
     <div className="row container m-auto reservation-section pt-3">
       <div className="col-12 col-lg-6 left-side d-flex align-items-center justify-content-center">
         <img src={reservationImg} alt="booking-img" />
       </div>
       <div className="col-12 col-lg-6 right-side mt-5 mt-lg-0 ">
-        <span>What we do?</span>
+        <span className="py-2 px-3 border-rounded rounded-4">What we do?</span>
         <h3 className="mt-4 mb-3">Reservations Management</h3>
         <p>
           Fusce placerat pretium mauris, vel sollicitudin elit lacinia vitae.
@@ -34,7 +16,7 @@ const Reservations = () => {
         </p>
         <div className="list mt-5">
           <div className="list-item d-flex d-inline align-items-baseline gap-3 mb-2">
-            <div className="button d-flex justify-content-center align-items-center">
+            <div className="button p-3 d-flex justify-content-center align-items-center">
               <svg
                 width="6"
                 height="10"
@@ -51,7 +33,7 @@ const Reservations = () => {
             <p>Sed eleifend est ac mi imperdiet pellentesque.</p>
           </div>
           <div className="list-item d-flex d-inline align-items-baseline gap-3 mb-2">
-            <div className="button d-flex justify-content-center align-items-center">
+            <div className="button p-3 d-flex justify-content-center align-items-center">
               <svg
                 width="6"
                 height="10"
@@ -68,7 +50,7 @@ const Reservations = () => {
             <p>Sed eleifend est ac mi imperdiet pellentesque.</p>
           </div>
           <div className="list-item d-flex d-inline align-items-baseline gap-3">
-            <div className="button d-flex justify-content-center align-items-center">
+            <div className="button p-3 d-flex justify-content-center align-items-center">
               <svg
                 width="6"
                 height="10"

@@ -5,7 +5,7 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 const footer = () => {
   return (
-    <div className="footer container">
+    <div className="footer container pt-5">
       <div className="row">
         <div className="col-12 col-lg-4">
           <img src={Logo} alt="logo" />
