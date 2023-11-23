@@ -10,7 +10,7 @@ const DownloadSection = () => {
         Quisque sit amet nisi erat.
       </p>
       <div className="row d-flex flex-column gap-2 gap-sm-3 flex-sm-row justify-content-center align-items-center">
-        <div className="col-6 col-sm-4 col-md-3 p-2 border border-rounded rounded-5 button">
+        <div className="col-5 col-sm-4 col-md-3 col-lg-2 p-2 border border-rounded rounded-5 button">
           <a
             href="#"
             className="text-decoration-none text-white d-flex justify-content-center align-items-center"
@@ -22,7 +22,7 @@ const DownloadSection = () => {
             </div>
           </a>
         </div>
-        <div className="col-6 col-sm-4 col-md-3 p-2 border border-rounded rounded-5 button">
+        <div className="col-5 col-sm-4 col-md-3 col-lg-2 p-2 border border-rounded rounded-5 button">
           <a
             href="#"
             className="text-decoration-none text-white d-flex justify-content-center align-items-center"

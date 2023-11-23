@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Logo from "../assets/svgs/logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
@@ -19,12 +19,12 @@ const footer = () => {
           <div className="row">
             <div className="col-12 col-md-4">
               <h4>Helpful Links</h4>
-              <ul>
+              <ul className="lh-lg">
                 <li>
                   <a href="#" className="text-decoration-none text-secondary">
                     <FontAwesomeIcon
                       icon={faChevronRight}
-                      className="small me-2"
+                      className="icon me-2"
                     />
                     About Us
                   </a>
@@ -33,7 +33,7 @@ const footer = () => {
                   <a href="#" className="text-decoration-none text-secondary">
                     <FontAwesomeIcon
                       icon={faChevronRight}
-                      className="small me-2"
+                      className="icon me-2"
                     />
                     Features
                   </a>
@@ -42,7 +42,7 @@ const footer = () => {
                   <a href="#" className="text-decoration-none text-secondary">
                     <FontAwesomeIcon
                       icon={faChevronRight}
-                      className="small me-2"
+                      className="icon me-2"
                     />
                     FAQ's
                   </a>
@@ -51,7 +51,7 @@ const footer = () => {
                   <a href="#" className="text-decoration-none text-secondary">
                     <FontAwesomeIcon
                       icon={faChevronRight}
-                      className="small me-2"
+                      className="icon me-2"
                     />
                     Blog
                   </a>
@@ -60,7 +60,7 @@ const footer = () => {
                   <a href="#" className="text-decoration-none text-secondary">
                     <FontAwesomeIcon
                       icon={faChevronRight}
-                      className="small me-2"
+                      className="icon me-2"
                     />
                     Contact
                   </a>
@@ -69,12 +69,12 @@ const footer = () => {
             </div>
             <div className="col-12 col-md-4">
               <h4>Services</h4>
-              <ul>
+              <ul className="lh-lg">
                 <li>
                   <a href="#" className="text-decoration-none text-secondary">
                     <FontAwesomeIcon
                       icon={faChevronRight}
-                      className="small me-2"
+                      className="icon me-2"
                     />
                     Worldwide
                   </a>
@@ -83,7 +83,7 @@ const footer = () => {
                   <a href="#" className="text-decoration-none text-secondary">
                     <FontAwesomeIcon
                       icon={faChevronRight}
-                      className="small me-2"
+                      className="icon me-2"
                     />
                     Scalable
                   </a>
@@ -92,7 +92,7 @@ const footer = () => {
                   <a href="#" className="text-decoration-none text-secondary">
                     <FontAwesomeIcon
                       icon={faChevronRight}
-                      className="small me-2"
+                      className="icon me-2"
                     />
                     Modular
                   </a>
@@ -101,7 +101,7 @@ const footer = () => {
                   <a href="#" className="text-decoration-none text-secondary">
                     <FontAwesomeIcon
                       icon={faChevronRight}
-                      className="small me-2"
+                      className="icon me-2"
                     />
                     Connectivity
                   </a>
@@ -110,7 +110,7 @@ const footer = () => {
                   <a href="#" className="text-decoration-none text-secondary">
                     <FontAwesomeIcon
                       icon={faChevronRight}
-                      className="small me-2"
+                      className="icon me-2"
                     />
                     Corporate
                   </a>
@@ -119,7 +119,7 @@ const footer = () => {
             </div>
             <div className="col-12 col-md-4">
               <h4>Contact Us</h4>
-              <ul>
+              <ul className="lh-lg">
                 <li>
                   <p className="text-secondary">
                     455 West Orchard Street Kings Mountain, NC 28086
@@ -148,7 +148,7 @@ const footer = () => {
       </div>
       <div className="copyright">
         <p className="text-secondary text-center mt-4">
-          &copy; 2020 YourSite. All Rights Reserved.
+          &copy; 2023 YourSite. All Rights Reserved.
         </p>
       </div>
     </div>

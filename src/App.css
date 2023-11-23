@@ -7,84 +7,71 @@
 * {
   font-family: "Nunito", sans-serif;
 }
-
 .btn-blue {
   border-radius: 4px !important;
   border: none !important;
-  background-color: var(--bg-blue) !important;
   color: #fff !important;
+  background-color: #192b74 !important;
+}
+.btn-blue:hover {
+  background-color: #6372a9 !important;
+  transition: 0.7s;
+}
+
+/* Navbar */
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 /* Introsection */
-.intro-left-side {
-  padding-top: 130px;
-}
-
 .typing-effect-text {
-  font-size: 38px;
-  font-weight: 400;
-  line-height: 48px;
+  font-size: 2.5rem;
 }
-@media (max-width: 767px) {
-  .typing-effect-text {
-    font-size: 42px;
-    line-height: 44px;
-  }
-  .intro-left-side {
-    padding-top: 30px;
-  }
+.intro-btns a:hover {
+  color: inherit !important;
 }
-.intro-left-side .paragraph {
-  color: #77838f;
-}
-.intro-left-side .intro-btns img {
-  border: 1px solid transparent;
-}
-.intro-left-side .intro-btns img:hover {
-  border: 1px solid #969da3;
-  transition: 0.3s ease-in-out;
+.intro-left-side .play-btn:hover {
+  transition: 0.3s ease;
+  transform: scale(1.2);
 }
 .intro-right-side {
   background: linear-gradient(135deg, #192b74 0.42%, #2946a1 100%);
   opacity: 0.7 !important;
   mix-blend-mode: normal;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-bottom-left-radius: 70%;
-  height: 450px;
+  height: 30rem;
 }
 @media (max-width: 767px) {
   .intro-right-side {
     border-radius: 0;
-    height: 300px;
+    height: 20rem;
   }
 }
-.intro-right-side img:hover {
+.intro-right-side .rounded-circle:hover {
   transition: 0.3s ease;
   transform: scale(1.2);
 }
 
-/* Carousel-section */
+/* Carousel Section */
 .cardsSection {
   padding-top: 100px;
   padding-bottom: 70px;
 }
 .custom-card {
-  min-width: 200px;
+  min-width: 14rem;
 }
 .custom-card img {
   width: 100%;
 }
-.card-text {
-  color: #77838f;
-  line-height: 27px;
-}
+
 .mySwiper {
   padding-bottom: 100px !important;
 }
 
-/* reservation Section */
+/* Reservation Section */
 .reservation-section .left-side img {
   width: 80%;
 }
@@ -143,19 +130,12 @@
 /* Count-up Section */
 .countup {
   background: linear-gradient(135deg, #192b74 0.42%, #2946a1 100%);
-  color: #fff;
-  padding: 60px 0;
   opacity: 0.7;
   mix-blend-mode: normal;
-}
-.countup p {
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 27px;
+  font-size: 20px;
 }
 
-/* Prices-section */
-
+/* Prices Section */
 .prices-section span {
   font-size: 14px;
   letter-spacing: 0.79px;
@@ -206,7 +186,7 @@
   padding: 10px;
   width: 100%;
   background-color: #cfdbff;
-  color: #142d71;
+  color: #192b74;
   border: none;
   outline: none;
   border-radius: 4px;
@@ -215,22 +195,42 @@
   font-size: 15px;
   letter-spacing: 1.07px;
 }
+.card-btn:hover {
+  background-color: #142d71;
+  color: #fff;
+  transition: 0.2s ease-in;
+}
 .color-red {
   color: #ec615b;
 }
-.bg-light-red {
+.btn-red {
   background-color: #f5ccca;
 }
-
-/* Download-section */
-.download-section {
-  padding:50px 0;
+.btn-red:hover {
+  background-color: #ec615b;
+  color: #fff;
+  transition: 0.2s ease-in;
 }
-.download-section .button{
-  background-color: var(--bg-blue) ;
+
+/* Download Section */
+.download-section {
+  padding: 50px 0;
+}
+.download-section .button {
+  background-color: var(--bg-blue);
+}
+.download-section .button:hover {
+  background-color: #6372a9 !important;
+  transition: 0.7s;
 }
 
 /* Footer */
 .footer {
   padding-top: 50px;
+}
+.icon {
+  font-size: 10px !important;
+}
+.footer a:hover {
+  color: #212529 !important;
 }

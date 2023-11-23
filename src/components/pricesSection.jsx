@@ -5,7 +5,9 @@ const pricesSection = () => {
     <div className="prices-section container m-auto text-center d-flex flex-column justify-content-center align-items-center my-5 py-0 py-md-5">
       <span>Pricing</span>
       <h1 className="mt-4 mb-3">Our Packages</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, iusto!</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, iusto!
+      </p>
       <div className="row mt-5 d-flex justify-content-center align-items-center gap-4">
         <div className="col-12 col-md-3 pricing-card">
           <h6 class="card-heading">SMALL PACK</h6>
@@ -35,7 +37,7 @@ const pricesSection = () => {
             <p class="deactive">Web Booking Widget</p>
             <p class="deactive">Monthly Reports and Analytics</p>
           </div>
-          <button class="card-btn color-red bg-light-red">Select Plan</button>
+          <button class="card-btn color-red btn-red">Select Plan</button>
         </div>
         <div className="col-12 col-md-3 pricing-card heading-red">
           <h6 class="card-heading">LARGE PACK</h6>
