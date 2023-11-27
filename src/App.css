@@ -64,12 +64,8 @@
 }
 
 /* Cards Section */
-.custom-card {
-    min-width: 14rem;
-}
-
 .custom-card img {
-    width: 100%;
+    width: 50%;
 }
 
 /* Reservation Section */
